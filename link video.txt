@@ -1,0 +1,12 @@
+Nhóm 10:
+Phan Cao Nguyên - 21120299
+Trần Nam Phương - 21120313
+Mai Đăng Đức Tài - 21120324
+Nguyễn Thành Trung - 21120351
+
+producer.py: kafka đọc từng dòng dữ liệu rồi gửi cho sparkspark
+spark_streaming.py: code thực hiện Spark streaming nhận dữ liệu từ kafka xử lý rồi lưu vào hadoop
+dag.py: code DAG của airflow
+combine_csv.py: task gộp dữ liệu trên hadoop 
+
+Link video: https://youtu.be/Rlztpim37mA
