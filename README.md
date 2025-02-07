@@ -10,7 +10,7 @@ The CSV files are read line by line and sent to a Kafka topic at random interval
 ### 2. Kafka
 Kafka serves as an intermediary message queue system for real-time data transmission.
 The producer reads from CSV files and sends data to a Kafka topic.  
-![producer](images/producer sent data.png)
+![producer](images/producer.png)
 
 ### 3. Spark Streaming
 Spark Streaming reads data from Kafka and processes it in real-time.
